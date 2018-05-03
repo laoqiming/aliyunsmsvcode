@@ -1,0 +1,54 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c04cb97561cf823bfae150956a2ff90a",
+    "packages": [
+        {
+            "name": "luojixinhao/aliyun-topsdk",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/luojixinhao/aliyun-topsdk.git",
+                "reference": "478f355b0bab5883de232389cb9d23630b850f10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/luojixinhao/aliyun-topsdk/478f355b0bab5883de232389cb9d23630b850f10.zip",
+                "reference": "478f355b0bab5883de232389cb9d23630b850f10",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "TopSdk.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Luo",
+                    "email": "lx_2010@qq.com",
+                    "homepage": "http://www.9window.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "aliyun-topsdk",
+            "homepage": "https://github.com/luojixinhao/aliyun-topsdk",
+            "time": "2017-06-21T10:19:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

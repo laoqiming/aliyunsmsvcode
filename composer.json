@@ -1,0 +1,18 @@
+{
+    "name": "jeexiang/aliyunsmsvcode",
+    "description": "a SMS verification code module based on Aliyun",
+    "authors": [
+        {
+            "name": "laoqiming",
+            "email": "laoqiming@qq.com"
+        }
+    ],
+    "require": {
+        "luojixinhao/aliyun-topsdk": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeexiang\\": "src/"
+        }
+    }
+}
