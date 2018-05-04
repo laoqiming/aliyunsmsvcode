@@ -22,6 +22,10 @@ namespace Jeexiang;
  *  ) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
  */
 use think\Db;
+use Flc\Alidayu\Client;
+use Flc\Alidayu\App;
+use Flc\Alidayu\Requests\AlibabaAliqinFcSmsNumSend;
+use Flc\Alidayu\Requests\IRequest;
 class Aliyunsmsvcode
 {
   public $success = false; //状态

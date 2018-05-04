@@ -8,7 +8,7 @@
         }
     ],
     "require": {
-        "luojixinhao/aliyun-topsdk": "^1.1"
+        "flc/alidayu": "^2.0"
     },
     "autoload": {
         "psr-4": {

@@ -4,43 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c04cb97561cf823bfae150956a2ff90a",
+    "content-hash": "2c6a69f75198b8b0a937529b1de9647b",
     "packages": [
         {
-            "name": "luojixinhao/aliyun-topsdk",
-            "version": "1.1.1",
+            "name": "flc/alidayu",
+            "version": "v2.0.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/luojixinhao/aliyun-topsdk.git",
-                "reference": "478f355b0bab5883de232389cb9d23630b850f10"
+                "url": "https://github.com/flc1125/alidayu.git",
+                "reference": "f4df2beaa90e639ef639b562d2b71e8dc2c3806c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/luojixinhao/aliyun-topsdk/478f355b0bab5883de232389cb9d23630b850f10.zip",
-                "reference": "478f355b0bab5883de232389cb9d23630b850f10",
+                "url": "https://files.phpcomposer.com/files/flc1125/alidayu/f4df2beaa90e639ef639b562d2b71e8dc2c3806c.zip",
+                "reference": "f4df2beaa90e639ef639b562d2b71e8dc2c3806c",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
             },
             "type": "library",
             "autoload": {
-                "files": [
-                    "TopSdk.php"
-                ]
+                "psr-4": {
+                    "Flc\\Alidayu\\": "src/Alidayu/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Jason Luo",
-                    "email": "lx_2010@qq.com",
-                    "homepage": "http://www.9window.com",
-                    "role": "Developer"
-                }
+            "description": "阿里大于(鱼)API-SDK；适用任何PHP项目，包括Laravel、Yii、Thinkphp等...",
+            "keywords": [
+                "alidayu",
+                "flc"
             ],
-            "description": "aliyun-topsdk",
-            "homepage": "https://github.com/luojixinhao/aliyun-topsdk",
-            "time": "2017-06-21T10:19:11+00:00"
+            "time": "2017-08-12T02:55:34+00:00"
         }
     ],
     "packages-dev": [],
