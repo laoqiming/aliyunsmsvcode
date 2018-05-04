@@ -125,6 +125,8 @@ class Aliyunsmsvcode
     }else if(!preg_match('/^1[35678]\d{9}$/', $this->mobile)){
       $this->success = false;
       $this->message = '请填写正确的手机号码';
+    }else{
+      $this->success = true;
     }
     return $this->success;
   }
