@@ -48,7 +48,7 @@ class Aliyunsmsvcode
     if($this->check_mobile()){
       $item = Db::name('sms_history')->where('mobile',$this->mobile)->where('status',0)->order('create_time desc')->limit('0,1')->find();
       if($item){
-        if((time()-strtotime($sms['create_time'])) > 60*$this->expiry_time){
+        if((time()-strtotime($item['create_time'])) > 60*$this->expiry_time){
            $this->message ='验证码过期，请重新获取';
            $this->success = false;
         }else{
