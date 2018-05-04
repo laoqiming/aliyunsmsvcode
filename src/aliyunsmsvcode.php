@@ -33,6 +33,12 @@ class Aliyunsmsvcode
   public $expiry_time = 30; // 短信有效期（分钟）
   public $sign_name = '珆熙'; //短信签名
   public $template_code = 'SMS_47110107'; // 短信模版编号
+  /**
+   * 校验验证码
+   * @param  [type] $mobile [description]
+   * @param  [type] $code   [description]
+   * @return [type]         [description]
+   */
   public function verify($mobile,$code){
     $this->mobile = $mobile;
     if($this->check_mobile()){
@@ -51,6 +57,12 @@ class Aliyunsmsvcode
     }
     return $this->success;
   }
+  /**
+   * 发送手机验证码
+   * @param  [type] $mobile     [description]
+   * @param  [type] $session_id [description]
+   * @return [type]             [description]
+   */
   public function send_vcode($mobile,$session_id){
     $this->mobile = $mobile;
     $this->session_id = $session_id;
@@ -101,6 +113,10 @@ class Aliyunsmsvcode
     }
     return $this->success;
   }
+  /**
+   * 检查手机号码合法性
+   * @return [type] [description]
+   */
   private function check_mobile(){
     $this->mobile = trim($this->mobile);
     if($this->mobile == ''){
